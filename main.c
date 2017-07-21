@@ -2,8 +2,8 @@
 #include "foo.h"
 
 int main(void) {
-    printf("%s", "test of shared library");
-    printf ("%d", number);
+    printf("%s\n", "test of shared library");
+    printf ("%d\n", number);
     foo();
     return 0;
 }
